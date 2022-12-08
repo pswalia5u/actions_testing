@@ -25,4 +25,6 @@ jobs:
       - run: aws s3 ls
         shell: bash
       - run: aws sts get-caller-identity
-        shell: bash 
+        shell: bash
+      - run: curl ifconfig.me
+        shell: bash
