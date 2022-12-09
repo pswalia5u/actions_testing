@@ -19,7 +19,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-region: us-east-1
-          role-to-assume: arn:aws:iam::623845349649:role/github_role
+          role-to-assume: arn:aws:iam::864154101007:role/github_action
           role-session-name: OIDCSession
  
       - run: aws s3 ls
